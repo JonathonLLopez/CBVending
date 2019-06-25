@@ -1,0 +1,11 @@
+{
+    "id": "f2128c22-095f-420d-b9ec-a52191364e27",
+    "name": "Vending Machine Inventories",
+    "settings": {
+        "CALL_ON_LOAD": true,
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "collection_name": "Vending_Machine_Inventory",
+        "refresh_interval": 10000
+    },
+    "type": "CB_COLLECTION"
+}
