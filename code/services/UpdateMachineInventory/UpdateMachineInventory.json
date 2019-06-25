@@ -1,0 +1,13 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "dependencies": "log,clearblade,VendingMachineInventoryLib,MachineLib,QPromiseLib",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "UpdateMachineInventory",
+    "params": [
+        "{\n    \"VendingMachineID\": \"1\",\n\"MachineBinNumber\": \"2\",\n\"Quantity\": \"3\"\n}"
+    ],
+    "run_user": ""
+}
