@@ -1,0 +1,10 @@
+{
+    "id": "be7ae22d-06c7-4975-9518-59c30aab3de7",
+    "name": "UsersDatasource",
+    "settings": {
+        "CALL_ON_LOAD": true,
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "refresh_interval": 360000
+    },
+    "type": "CB_USER_LIST"
+}
