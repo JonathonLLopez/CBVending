@@ -1,0 +1,32 @@
+{
+    "HAS_UNIQUE_STYLE": false,
+    "cells": [
+        {
+            "fill": "#0062cc"
+        },
+        {
+            "fill": "#6E93A8"
+        },
+        {
+            "fill": "#DBA5A8"
+        },
+        {
+            "fill": "#E8E7C6"
+        }
+    ],
+    "chartData": {
+        "dataType": "CALCULATED_DATA_TYPE",
+        "force_data": [
+            "CALCULATED_DATA_TYPE",
+            "DYNAMIC_DATA_TYPE"
+        ],
+        "value": "./parsers/chartData/incoming_parser/index.js"
+    },
+    "chartMarginBottom": 0,
+    "chartMarginLeft": 0,
+    "chartMarginRight": 0,
+    "chartMarginTop": 0,
+    "innerRadius": 0,
+    "showLabel": true,
+    "showTooltip": true
+}
