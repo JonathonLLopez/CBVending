@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "item_id": "904b7829-0cc9-45fa-b441-1a164b6a3261",
+            "machine_id": 2,
+            "machine_location_address_1": "1901 W Madison St",
+            "machine_location_address_2": "",
+            "machine_location_building_location": "2nd floor aisle 204",
+            "machine_location_city": "Chicago",
+            "machine_location_state": "IL",
+            "machine_location_zipcode": "60612",
+            "machine_model": "CBVA20"
+        },
+        {
+            "item_id": "cc9f5d1b-e31b-4ca8-8744-6cea5680321b",
+            "machine_id": 1,
+            "machine_location_address_1": "103 E 5th Street",
+            "machine_location_address_2": null,
+            "machine_location_building_location": "2nd floor executive office",
+            "machine_location_city": "Austin",
+            "machine_location_state": "TX",
+            "machine_location_zipcode": "78701",
+            "machine_model": "CBVA12"
+        }
+    ],
+    "name": "Vending_Machines",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "machine_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_address_1",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_address_2",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_building_location",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_city",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_state",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_location_zipcode",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "machine_model",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
