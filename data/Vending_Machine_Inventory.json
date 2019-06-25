@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "item_id": "29082660-125d-4349-831f-2224fcbcc04a",
+            "product_id": "AB1113",
+            "quantity": 4,
+            "slot": 2,
+            "vending_machine_id": 1
+        },
+        {
+            "item_id": "2a1b1cad-6f96-4dfb-83e1-997197217379",
+            "product_id": "AB1112",
+            "quantity": 0,
+            "slot": 3,
+            "vending_machine_id": 1
+        },
+        {
+            "item_id": "603c33b2-7e7c-47c7-87b3-fb9c773bae71",
+            "product_id": "AB1112",
+            "quantity": 0,
+            "slot": 1,
+            "vending_machine_id": 2
+        },
+        {
+            "item_id": "801e574d-35ab-4d94-a3ce-75c544a86e7f",
+            "product_id": "AB1121",
+            "quantity": 0,
+            "slot": 2,
+            "vending_machine_id": 2
+        },
+        {
+            "item_id": "97c035fc-ac72-4b77-9c17-3c2e882ab959",
+            "product_id": "AB1141",
+            "quantity": 0,
+            "slot": 3,
+            "vending_machine_id": 2
+        },
+        {
+            "item_id": "a152c79e-8e01-4c96-9f9c-37eef3c78f40",
+            "product_id": "AB111",
+            "quantity": 1,
+            "slot": 1,
+            "vending_machine_id": 1
+        }
+    ],
+    "name": "Vending_Machine_Inventory",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "vending_machine_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "slot",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "product_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "quantity",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ]
+}
