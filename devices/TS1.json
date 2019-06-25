@@ -1,0 +1,10 @@
+{
+    "allow_certificate_auth": true,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "",
+    "enabled": true,
+    "name": "TS1",
+    "state": "{model: 'TSA1'}",
+    "type": "Temperature Sensor"
+}
