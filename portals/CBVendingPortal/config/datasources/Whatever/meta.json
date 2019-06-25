@@ -1,0 +1,13 @@
+{
+    "id": "9ab67101-ca72-40d0-865c-c47b99018a20",
+    "name": "Whatever",
+    "settings": {
+        "CALL_ON_LOAD": true,
+        "DATASOURCE_PARSER": "/**\n* @param {context} ctx - Object containing data and model information for this item.\n*/\nparser = (ctx) =\u003e {\n  return ctx.data\n}",
+        "SUPPRESS_DATASOURCE_ERRORS": false,
+        "USE_PARSER": false,
+        "collection_name": "Test",
+        "refresh_interval": 0
+    },
+    "type": "CB_COLLECTION"
+}
