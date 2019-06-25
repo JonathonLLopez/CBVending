@@ -1,0 +1,44 @@
+{
+    "assets": [
+        {
+            "asset_class": "services",
+            "asset_id": "WeightSensorTriggerHandler",
+            "deployment": "VendingDeployment",
+            "member": "VendingDeployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "UpdateMachineInventory",
+            "deployment": "VendingDeployment",
+            "member": "VendingDeployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "libraries",
+            "asset_id": "VendingMachineInventoryLib",
+            "deployment": "VendingDeployment",
+            "member": "VendingDeployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "triggers",
+            "asset_id": "WeightSensorTrigger",
+            "deployment": "VendingDeployment",
+            "member": "VendingDeployment_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Vending_Machine_Inventory",
+            "asset_id": "",
+            "deployment": "VendingDeployment",
+            "member": "VendingDeployment_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "",
+    "edges": [
+        "CB_Vending_Edge"
+    ],
+    "name": "VendingDeployment"
+}
